@@ -701,13 +701,16 @@ SP
   Pickup
   -------------------------------------------*/
   #pickup {
-    padding: 80px 0;
+    width: 100%;
+    padding: 100px 0 50px 0;
+  }
+  #pickup .slick-area {
+    font-size: 0;
+    width: 500px;
   }
   #pickup .slick-area li {
-    margin-left: 30%;
-    padding: 0 20px;
+    padding: 0 30px;
   }
-
   /*-------------------------------------------
   Feature
   -------------------------------------------*/
